@@ -1,0 +1,36 @@
+header {
+    background-color: var(--Amarillo);
+}
+
+header img {
+    margin-left: 25px;
+}
+
+header #busqueda {
+    margin-left: 25px;
+   
+} 
+
+header div p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+header .burger-menu {
+
+    color: white;
+    background-color: var(--Celeste); 
+    font-size: 30px ;
+    text-align: center;
+    
+}
+
+header nav ul.perfil {
+
+    margin-top: 15px;
+   margin-bottom: 15px;
+}
+

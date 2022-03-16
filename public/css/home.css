@@ -1,0 +1,16 @@
+.main article div span {
+    font-size: 18px;
+}
+
+.main article div p {
+    font-size: 16px;
+}
+
+.main article div h3 {
+    font-size: 16px;
+}
+
+main {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
