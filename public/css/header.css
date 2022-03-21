@@ -1,9 +1,12 @@
 header {
     background-color: var(--Amarillo);
+    width: 401px;
+    height: 370px;
 }
 
 header img {
     margin-left: 25px;
+    margin-bottom: 15px;
 }
 
 header #busqueda {
@@ -19,13 +22,25 @@ header div p {
     
 }
 
-header .burger-menu {
+header button .burger {
+   margin-bottom: 15px;
+}
 
-    color: white;
-    background-color: var(--Celeste); 
-    font-size: 30px ;
-    text-align: center;
+header .burger {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:0px;
+    border-radius: 5px;
+    width:50px;
+    height:50px;
+    background-color: var(--Celeste);
     
+}
+
+header .burger .burger-menu {
+    color: white;
+    font-size: 30px;
 }
 
 header nav ul.perfil {
