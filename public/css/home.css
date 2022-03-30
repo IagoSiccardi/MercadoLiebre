@@ -1,20 +1,115 @@
-.main article div span {
-    font-size: 18px;
-}
 
-.main article div p {
-    font-size: 16px;
-}
-
-.main article div h3 {
-    font-size: 16px;
-}
 
 main {
+
+    text-align: center;
     margin-top: 0px;
     margin-bottom: 60px;
+    
+    
+    
+    
+}
+
+main section {
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+main section h2 {
+    margin-bottom: 20px ;
 }
 
 main .banner {
+    
     margin-bottom: 15px;
+}
+
+main article div {
+    margin-top: 10px;
+}
+
+
+main article div span {
+    font-size: 18px;
+}
+
+main article div p {
+    font-size: 16px;
+    color: var(--Verde)
+}
+
+main article div h3 {
+    font-size: var(--TamañoH3)
+}
+
+main section article div .envio {
+    display: inline-block   ;
+    font-size: 15px;
+    color: var(--Verde);
+    border: solid green 1px;
+    border-radius: 100px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left:49% ;
+    margin-right: 49%;;
+    
+}
+
+main section article .card{
+
+    border-top: solid 1px var(--GrisClaro);
+   /*  border-bottom: solid 1px var(--GrisClaro); */
+    padding: 15px;
+}
+
+main section article div img {
+    width: 60%;
+}
+
+main section article div h3 {
+    display: none;
+    font-weight: normal;
+}
+
+main article{
+
+    box-shadow: none;
+}
+
+
+/* Tablet */
+
+
+
+@media (min-width : 361px) {
+
+    main section article div h3 {
+        display: block;
+    }
+
+    main article{
+
+        box-shadow: 0px 0px 10px rgb(100,100,100); 
+    }
+}
+
+
+/* Desktop */
+
+@media (min-width : 769px) {
+    main section article div img { 
+        width: 45%;
+}
+
+    
+
+
+}
+
+@media (min-width : 1000px) {   
+    main section article div img { 
+        width: 35%;
+}
 }
