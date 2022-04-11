@@ -1,7 +1,7 @@
 header {
     background-color: var(--Amarillo);
-    width: 100%;
-    height: 230px;
+    padding: 20px 0;
+    
 }
 
 header nav {
@@ -73,7 +73,5 @@ header nav ul.menu{
         display: none;
     }
 
-    header {
-        height: 320px;
-    }
+
 }
