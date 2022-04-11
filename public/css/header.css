@@ -4,21 +4,42 @@ header {
     
 }
 
+
+header .logoBusqueda {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 header nav {
     display: none;
 }
 
-header div img {
-    margin-left: 25px;
+header .logo {
+    width:50%;
+}
+
+header .logo img {
+   
+    width: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
 header #busqueda {
+    width: 50%;
+    text-align: center;
     
-    margin-left: 25px;
-   
+    
 } 
+
+/* header #busqueda input {
+    border: none;
+    padding: 15px 0;
+    border-radius: 3px;
+    
+} */
 
 header div p {
     margin-top: 15px;
@@ -74,4 +95,40 @@ header nav ul.menu{
     }
 
 
+    header .logo {
+        width:33%;
+    }
+    
+    header #busqueda {
+        width: 33%;
+        
+        
+    } 
+
+    header .logoBusqueda p {
+        width: 33%;
+    }
+
+    header div nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    header div nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+
+
+
+} 
+
+
+@media (min-width: 769px) {
+
+  
 }

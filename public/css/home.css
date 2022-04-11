@@ -1,7 +1,7 @@
 
 
 main {
-
+    
     text-align: center;
     margin-top: 0px;
     margin-bottom: 60px;
@@ -21,11 +21,13 @@ main section {
 }
 
 main section h2 {
+    padding-top: 20px ;
     margin-bottom: 20px ;
+    width: 100%;
 }
 
 main .banner {
-    
+    display: none;
     margin-bottom: 15px;
 }
 
@@ -47,16 +49,59 @@ main article div h3 {
     font-size: var(--TamañoH3)
 }
 
-main section article div .envio {
-    display: inline-block   ;
-    font-size: 15px;
+main section article .detalle{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    text-align: left;
+    
+}
+
+main section article .detalle span {
+    width: 30%;
+}
+
+
+main section article .detalle p {
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+main section article .detalle h3 {
+    width: 100%;
+    color: gray;
+    
+}
+
+main section article div .envio i {
+  
+    display:block;
+    font-size: 16px; 
+    padding:5px; 
+    width: 30px; 
+    height: 30px; 
+    border: 1px solid #39b54a; 
+    background-color: #FFF; 
     color: var(--Verde);
-    border: solid green 1px;
-    border-radius: 100px;
-    padding: 10px;
-    margin-bottom: 5px;
-    margin-left:45% ;
-    margin-right: 45%;;
+    border-radius: 50%; 
+    position: absolute;
+    top: -15px;
+    right: 20px; 
+
+
+
+
+   /*  display:block;
+    font-size: 16px; 
+    padding:5px; 
+    width: 30px; 
+    height: 30px; 
+    border: 1px solid #39b54a; 
+    background-color: #FFF; 
+    border-radius: 50%; 
+    position:absolute;
+    right:20px;
+    top:15px */
     
 }
 
@@ -89,6 +134,11 @@ main article{
 
 @media (min-width : 361px) {
 
+    main .banner {
+        display: block;
+    }
+
+
     main section article div h3 {
         display: block;
     }
@@ -97,23 +147,30 @@ main article{
 
         box-shadow: 0px 0px 10px rgb(100,100,100); 
     }
+
+    main section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    main section article {
+        width: 45%;
+    
+    }
 }
 
 
 /* Desktop */
 
 @media (min-width : 769px) {
-    main section article div img { 
-        width: 45%;
-}
+
+
+
+
+    main section article {
+        width: 20%;
 
     
-
-
-}
-
-@media (min-width : 1000px) {   
-    main section article div img { 
-        width: 35%;
-}
+    }
 }
