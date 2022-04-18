@@ -7,11 +7,16 @@
 .formularios .box{
     width: 75%;
     margin-bottom: 20px ;
+    max-width: 500px;
     
 }
 
+.formularios h2 {
+    padding-top: 50px;
+}
+
 .formularios .box:first-child {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .formularios input {
@@ -23,7 +28,17 @@
     
 }
 
+.formularios span {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    
+}
+
+
 .formularios .fecha {
+    max-width: 500px;
     position: relative;
     width: 75%;
     margin-bottom: 20px ;
@@ -35,19 +50,22 @@
     text-align: right;
 }
 
-.formularios .fecha span {
+.formularios .fecha .nacimiento {
     text-align: left;
     position: absolute;
-    top: 17px;
+    top: 19px;
     bottom: auto;
     left: 10px;
     font-size: 14px;
     color: gray;
+    width: 50%;
+    font-weight: 500;
 
 }
 
 .formularios .box #perfil {
     width: auto;
+    
 }
 
 .formularios #perfil {
@@ -55,9 +73,6 @@
     flex-wrap: wrap;
     align-items: center;
     
-}
-.formularios #perfil span {
-    width: 100%;
 }
 
 .formularios .box .boxFlex {
@@ -72,4 +87,50 @@
 .formularios .box .boxFlex label {
     margin-left: 5px;
     
+}
+
+.formularios #interes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.formularios #interes span {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.formularios #interes div {
+    width: 40%;
+    text-align: left;
+}
+
+.formularios #interes .columna2 {
+    width: 40%;
+    text-align: right;
+}
+
+
+
+.formularios #interes div input {
+    width: auto;
+}
+
+.formularios .box #foto {
+    margin-top: 10px;
+}
+
+.formularios .box button {
+    width: 40%;
+    padding: 15px 0px;
+    border-radius: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--Celeste);
+    border: none;
+    cursor: pointer;
 }

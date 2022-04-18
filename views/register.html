@@ -12,7 +12,7 @@
     <header>
         <div class="logoBusqueda">
 
-            <div class="logo"> <img src="images/logo-mercado-liebre.svg" alt=""> </div>
+            <div class="logo"><a href="/"><img src="images/logo-mercado-liebre.svg" alt=""></a></div>
             <div id="busqueda">
                 <input type="text" placeholder=" Buscar productos, marcas">
                 <button class="busqueda"> <i class="fas fa-search"></i></button>
@@ -32,8 +32,8 @@
                     <li><a href="">Ayuda</a></li>
                 </ul>
                 <ul class="perfil">
-                    <li> <a href=""> Crear tu cuenta</a> <i class="fas fa-id-card"></i></li>
-                    <li> <a href="">Ingresa</a> <i class="fas fa-sign-in"></i></li>
+                    <li> <a href="/register"> Crear tu cuenta</a> <i class="fas fa-id-card"></i></li>
+                    <li> <a href="/login">Ingresa</a> <i class="fas fa-sign-in"></i></li>
                     <li> <a href="">Mis compras</a> <i class="fas fa-shopping-basket"></i> </li>
                 </ul>
             </nav>
@@ -48,7 +48,7 @@
         
     </header>
     <main class="formularios">
-
+        <h2>Bienvenid@</h2>
         <form action="">
             <div class="box">
                 <input type="text" name="nombre" placeholder="Nombre y apellido" required>
@@ -63,7 +63,7 @@
             </div>
 
             <div class="fecha">
-                <span>Fecha de nacimiento</span>
+                <span  class="nacimiento">Fecha de nacimiento</span>
                 <input type="date" name="fecha" id="fecha">
             </div>
 
@@ -84,7 +84,7 @@
 
                 </div>
             </div>
-                <div>
+                <div class="box" id="interes">
                     <span>Categorías de interés</span>
                     <div>
                         <input type="checkbox" name="categoria" id="electro" value="e">
@@ -93,7 +93,7 @@
                     </div>
                  
                     
-                    <div>
+                    <div class="columna2">
                         <input type="checkbox" name="categoria" id="moda" value="m">
                         <label for="moda">Moda</label>
 
@@ -103,7 +103,7 @@
                         <label for="hogar">Hogar</label>
                     </div>
 
-                    <div>
+                    <div class="columna2">
                         <input type="checkbox" name="categoria" id="jugueteria" value="j">
                         <label for="jugueteria">Juguetería</label>
                     </div>
@@ -138,6 +138,33 @@
             </div>
 
         </form>
+        
     </main>
+    <footer>
+        <section>
+            <i class="fas fa-credit-card"></i>
+            <h3>Pagá con tarjeta o en efectivo</h3>
+            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p> 
+        </section>
+
+        <section>
+            <i class="fas fa-gift"></i>
+            <h3>Envío gratis desde $ 2.500</h3>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+
+        </section>
+
+        <section>
+            <i class="fas fa-user-shield"></i>
+            <h3>Seguridad, de principio a fin</h3>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+
+        </section>
+           
+        <section class="copyright">
+            <a>Copyright © 1999-2020 MercadoLiebre S.R.L. </a> 
+        </section>
+
+    </footer>
     
     </body>

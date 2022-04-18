@@ -1,6 +1,7 @@
 header {
     background-color: var(--Amarillo);
     padding: 20px 0;
+    width: 100%;
     
 }
 
@@ -46,6 +47,7 @@ header div p {
     margin-bottom: 15px;
     text-align: center;
     font-size: 16px;
+    width: 100%;
     
 }
 
@@ -86,7 +88,7 @@ header nav ul.menu{
 
 /* Tablet */
 
-@media (min-width : 361px) {
+@media (min-width : 425px) {
     header nav {
         display: block;
     }
@@ -112,7 +114,9 @@ header nav ul.menu{
     header div nav {
         display: flex;
         align-items: center;
+        flex-direction: column;
         justify-content: space-between;
+        width: 100%;
         
     }
 
@@ -126,9 +130,20 @@ header nav ul.menu{
 
 
 } 
-
+@media (min-width : 514px) {
+    
+    header div nav {
+        
+        flex-direction: row;
+        
+    }
+    
+}
 
 @media (min-width: 769px) {
 
-  
+   
+
+
+
 }
