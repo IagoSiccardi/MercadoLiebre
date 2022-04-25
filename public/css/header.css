@@ -17,6 +17,10 @@ header nav {
     display: none;
 }
 
+header nav ul li a {
+    font-size: 12px;
+}
+
 header .logo {
     width:50%;
 }
@@ -35,18 +39,16 @@ header #busqueda {
     
 } 
 
-/* header #busqueda input {
-    border: none;
-    padding: 15px 0;
-    border-radius: 3px;
+ header #busqueda input {
+    width: 75%;
     
-} */
+} 
 
 header div p {
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     width: 100%;
     
 }
@@ -114,7 +116,7 @@ header nav ul.menu{
     header div nav {
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         width: 100%;
         
@@ -123,24 +125,33 @@ header nav ul.menu{
     header div nav ul {
         display: flex;
         justify-content: space-evenly;
-        gap: 20px;
+        gap: 10px;
     }
 
 
 
 
 } 
-@media (min-width : 514px) {
-    
-    header div nav {
-        
-        flex-direction: row;
-        
-    }
-    
-}
+
 
 @media (min-width: 769px) {
+
+    header div p {
+      
+        font-size: 16px;
+       
+    }
+
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    header div nav ul {
+        
+        gap: 20px;
+    }
+
 
    
 

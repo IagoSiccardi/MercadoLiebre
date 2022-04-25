@@ -14,9 +14,9 @@ main {
 }
 
 main section {
-    width: 90%;
-    margin: 0 auto;
-    padding: 0;
+    
+    margin: 0px 20px 20px;
+    padding: 40px 0px 0px;
     
 }
 
@@ -36,40 +36,43 @@ main article div {
 }
 
 
-main article div span {
-    font-size: 18px;
-}
-
-main article div p {
-    font-size: 16px;
-    color: var(--Verde);
-}
-
-main article div h3 {
-    font-size: var(--TamañoH3)
-}
-
 main section article .detalle{
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    text-align: left;
+    align-items: center;
+    border-top: solid 1px var(--GrisClaro);
+    padding: 20px 15px;
+    
+    
+    
     
 }
 
-main section article .detalle span {
-    width: 30%;
+
+
+main section article .detalle  span {
+    width: 50%;
+    text-align: left;   
+    font-size: 15px;
+    margin-bottom: 5px
 }
 
 
 main section article .detalle p {
-    width: 70%;
-    margin-bottom: 15px;
+    width: 50%;
+    text-align: right;  
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: var(--Verde);
+    
 }
 
 main section article .detalle h3 {
     width: 100%;
     color: gray;
+    text-align: left;
+    font-size: 16px
     
 }
 
@@ -88,29 +91,10 @@ main section article div .envio i {
     top: -15px;
     right: 20px; 
 
-
-
-
-   /*  display:block;
-    font-size: 16px; 
-    padding:5px; 
-    width: 30px; 
-    height: 30px; 
-    border: 1px solid #39b54a; 
-    background-color: #FFF; 
-    border-radius: 50%; 
-    position:absolute;
-    right:20px;
-    top:15px */
     
 }
 
-main section article .detalle{
 
-    border-top: solid 1px var(--GrisClaro);
-   /*  border-bottom: solid 1px var(--GrisClaro); */
-    padding: 15px;
-}
 
 main section article div img {
     width: 60%;
@@ -142,6 +126,8 @@ main article{
     main section article div h3 {
         display: block;
     }
+
+    
 
     main article{
 

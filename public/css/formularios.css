@@ -134,3 +134,7 @@
     border: none;
     cursor: pointer;
 }
+
+.formularios .box button a {
+    color: white;
+}
