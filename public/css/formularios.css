@@ -133,8 +133,14 @@
     background-color: var(--Celeste);
     border: none;
     cursor: pointer;
+    transition: .5s;
 }
 
 .formularios .box button a {
     color: white;
+}
+
+.formularios .box button:hover {
+
+    background-color: #0022AA
 }

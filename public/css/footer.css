@@ -21,6 +21,12 @@ footer section i {
     color : var(--Celeste);
     font-size: 2em;
     margin-bottom: 10px;
+    transition: 1s;
+}
+
+footer section i:hover {
+    transform: scale(1.2);
+    color: #0022AA;
 }
 
 @media (min-width : 769px) {

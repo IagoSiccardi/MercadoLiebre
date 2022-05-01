@@ -31,6 +31,10 @@ main .banner {
     margin-bottom: 15px;
 }
 
+main article {
+    transition: all .5s;
+}
+
 main article div {
     margin-top: 10px;
 }
@@ -43,6 +47,8 @@ main section article .detalle{
     align-items: center;
     border-top: solid 1px var(--GrisClaro);
     padding: 20px 15px;
+    
+    
     
     
     
@@ -72,9 +78,13 @@ main section article .detalle h3 {
     width: 100%;
     color: gray;
     text-align: left;
-    font-size: 16px
+    font-size: 16px;
+    display: none;
+    transition: all 0.2s ease 0s;
+    
     
 }
+
 
 main section article div .envio i {
   
@@ -90,8 +100,13 @@ main section article div .envio i {
     position: absolute;
     top: -15px;
     right: 20px; 
+    transition: all 0.5s;
 
     
+}
+
+main section article div .envio i:hover {
+    transform: rotate(-90deg);
 }
 
 
@@ -122,16 +137,24 @@ main article{
         display: block;
     }
 
+  
+    
 
-    main section article div h3 {
-        display: block;
-    }
+
+  
 
     
 
-    main article{
+    main article:hover{
 
         box-shadow: 0px 0px 10px rgb(100,100,100); 
+        
+    }
+
+    main section article:hover > .detalle h3{
+
+        display: block;
+        transition: all .5s;
     }
 
     main section {
